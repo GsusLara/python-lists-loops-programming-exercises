@@ -7,3 +7,8 @@ names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','Logan
 
 
 #Your code go here:
+def filtro(nombres):
+    for am in nombres:
+        return nombres.find("am")!=-1
+salida=list(filter(filtro,names))
+print(salida)

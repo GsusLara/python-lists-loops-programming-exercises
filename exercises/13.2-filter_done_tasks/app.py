@@ -12,4 +12,7 @@ tasks = [
 
 
 #Your code go here:
-
+def filtro(tarea):
+    return tarea["done"]==True
+salida=list(filter(filtro,tasks))
+print(salida)    
